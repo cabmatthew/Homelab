@@ -1,5 +1,5 @@
-# Homelab
-Slow but sure progression of my homelab. 
+# My Homelab
+A learning experience. 
 ## Table of Contents
 [1)](https://github.com/cabmatthew/Homelab/blob/main/README.md#devices-used) Devices Used
 
@@ -19,15 +19,16 @@ Slow but sure progression of my homelab.
 
 ## Devices Used
 
-[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
-- Raspberry Pi OS (Debian-based) on a Raspberry Pi 4
-- Windows 11 on a Lenovo Laptop 16 GB RAM 2 TB over 2 drives
-- MacOS on a Macbook Pro M1
+- Raspberry Pi OS Trixie (Debian-based) on a Raspberry Pi 4
+- Windows 11 Home on a Lenovo Laptop AMD Ryzen 7 5800H 16 GB RAM 2 TB over 2 drives
+- MacOS Sequoia on a Macbook Pro M1
+- Xfinity Gateway bridged to TP-Link Archer AX4400 Router
 
 ## Pi Recommissioning 
 
-[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 ```sudo apt update```
 
@@ -46,25 +47,25 @@ Once all the packages were updated, I then ran into another issue. This time it 
 After following the article for a fix, I kept seeing the same issue after restarting with the fix in place. I ended up flashing the OS again, and it ran like new.
 
 ## Pihole 
-[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 
 ## Samba Setup
-[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 
 ## Router Addition
-[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 
 ## PiVPN WireGuard
-[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 
 ## Dockerizing Pihole
-[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 
 ## Proxmox
-[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
