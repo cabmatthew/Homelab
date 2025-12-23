@@ -1,14 +1,14 @@
 # Homelab
 Slow but sure progression of my homelab. 
 ## Table of Contents
-1.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#devices-used) Devices Used
-2.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#pi-recommissioning) Pi Recommissioning
-3.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#pihole) Pihole
-4.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#samba-setup) Samba Setup
-5.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#router-addition) Router Addition
-6.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#pivpn-wireguard) PiVPN WireGuard
-7.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#dockerizing-pihole) Dockerizing Pihole
-8.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#Proxmox) Proxmox
+1.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#devices-used) Devices Used
+2.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pi-recommissioning) Pi Recommissioning
+3.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pihole) Pihole
+4.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#samba-setup) Samba Setup
+5.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#router-addition) Router Addition
+6.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pivpn-wireguard) PiVPN WireGuard
+7.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#dockerizing-pihole) Dockerizing Pihole
+8.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#Proxmox) Proxmox
 
 ## Devices Used
 
