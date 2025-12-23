@@ -1,6 +1,23 @@
 # Homelab
-Slow but sure progression of my homelab.
+Slow but sure progression of my homelab. 
+## Table of Contents
+1.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#devices-used) Devices Used
+2.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#pi-recommissioning) Pi Recommissioning
+3.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#pihole) Pihole
+4.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#samba-setup) Samba Setup
+5.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#router-addition) Router Addition
+6.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#pivpn-wireguard) PiVPN WireGuard
+7.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#dockerizing-pihole) Dockerizing Pihole
+8.  [(Jump to)](https://github.com/cabmatthew/Homelab/edit/main/README.md#Proxmox) Proxmox
+
+## Devices Used
+
+- Raspberry Pi OS (Debian-based) on a Raspberry Pi 4
+- Windows 11 on a Lenovo Laptop 16 GB RAM 2 TB over 2 drives
+- MacOS on a Macbook Pro M1
+
 ## Pi Recommissioning
+
 ```sudo apt update```
 
 This command updated the package index files on my Raspberry Pi 4 which hadn’t been used for 3 years, but there were errors. My first attempt at resolution involved editing /etc/apt/sources.list. It originally tried updating using Buster, which is an old version of the Raspberry Pi OS. After switching it to Bullseye, “sudo apt update” ran successfully.
