@@ -1,22 +1,33 @@
 # Homelab
 Slow but sure progression of my homelab. 
 ## Table of Contents
-1.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#devices-used) Devices Used
-2.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pi-recommissioning) Pi Recommissioning
-3.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pihole) Pihole
-4.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#samba-setup) Samba Setup
-5.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#router-addition) Router Addition
-6.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pivpn-wireguard) PiVPN WireGuard
-7.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#dockerizing-pihole) Dockerizing Pihole
-8.  [(Jump to)](https://github.com/cabmatthew/Homelab/blob/main/README.md#Proxmox) Proxmox
+[1)](https://github.com/cabmatthew/Homelab/blob/main/README.md#devices-used) Devices Used
+
+[2)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pi-recommissioning) Pi Recommissioning
+
+[3)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pihole) Pihole
+
+[4)](https://github.com/cabmatthew/Homelab/blob/main/README.md#samba-setup) Samba Setup
+
+[5)](https://github.com/cabmatthew/Homelab/blob/main/README.md#router-addition) Router Addition
+
+[6)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pivpn-wireguard) PiVPN WireGuard
+
+[7)](https://github.com/cabmatthew/Homelab/blob/main/README.md#dockerizing-pihole) Dockerizing Pihole
+
+[8)](https://github.com/cabmatthew/Homelab/blob/main/README.md#Proxmox) Proxmox
 
 ## Devices Used
+
+[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 - Raspberry Pi OS (Debian-based) on a Raspberry Pi 4
 - Windows 11 on a Lenovo Laptop 16 GB RAM 2 TB over 2 drives
 - MacOS on a Macbook Pro M1
 
-## Pi Recommissioning
+## Pi Recommissioning 
+
+[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 ```sudo apt update```
 
@@ -33,14 +44,27 @@ Moving on, this command installed the available updates found when looking throu
 Once all the packages were updated, I then ran into another issue. This time it involved Wi-Fi connectivity, as the wireless LAN interface could not be found. 
 [Fix?](https://gist.github.com/basperheim/d419491bc7a6889d99fb5cb72d58d0b6)
 After following the article for a fix, I kept seeing the same issue after restarting with the fix in place. I ended up flashing the OS again, and it ran like new.
+
 ## Pihole 
+[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+
 
 ## Samba Setup
+[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+
 
 ## Router Addition
+[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+
 
 ## PiVPN WireGuard
+[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+
 
 ## Dockerizing Pihole
+[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+
 
 ## Proxmox
+[Back to top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
+
