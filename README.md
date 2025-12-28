@@ -1,25 +1,23 @@
 # My Homelab
 A learning experience. 
 ## Table of Contents
-[1)](https://github.com/cabmatthew/Homelab/blob/main/README.md#devices-used) Devices Used
+1) Devices Used
 
-[2)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pi-recommissioning) Pi Recommissioning
+2) Pi Recommissioning
 
-[3)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pi-hole) Pi-hole
+3) Pi-hole
 
-[4)](https://github.com/cabmatthew/Homelab/blob/main/README.md#samba-setup) Samba Setup
+4) Samba Setup
 
-[5)](https://github.com/cabmatthew/Homelab/blob/main/README.md#router-addition) Router Addition
+5) Router Addition
 
-[6)](https://github.com/cabmatthew/Homelab/blob/main/README.md#pivpn-wireguard) PiVPN WireGuard
+6) PiVPN WireGuard
 
-[7)](https://github.com/cabmatthew/Homelab/blob/main/README.md#dockerizing-pihole) Dockerizing Pihole
+7) Dockerizing Pihole
 
-[8)](https://github.com/cabmatthew/Homelab/blob/main/README.md#Proxmox) Proxmox
+8) Proxmox
 
 ## Devices Used
-
-[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 - Raspberry Pi OS Trixie (Debian-based) on a Raspberry Pi 4
 - Windows 11 Home on a Lenovo Laptop AMD Ryzen 7 5800H 16 GB RAM 2 TB over 2 drives
@@ -27,8 +25,6 @@ A learning experience.
 - Xfinity Gateway bridged to TP-Link Archer AX4400 Router
 
 ## Pi Recommissioning 
-
-[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 ```sudo apt update```
 
@@ -47,7 +43,6 @@ Once all the packages were updated, I then ran into another issue. This time it 
 After following the article for a fix, I kept seeing the same issue after restarting with the fix in place. I ended up flashing the OS again, and it ran like new.
 
 ## Pihole 
-[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 Pi-hole is an open-source software serving as a DNS sinkhole. Setting your computer’s DNS to the Pi-hole server causes the computer’s DNS requests to first route to Pi-hole. Then, Pi-hole uses its domain blacklist to see which requests are associated with common advertisement domains. Pi-hole tells your computer that nothing is at that domain by responding with 0.0.0.0, effectively stopping the ads from loading.
 
@@ -64,7 +59,6 @@ Below is Pi-hole’s comprehensive dashboard. It provides query logging, real-ti
 [ dashboard image ]
 
 ## Samba Setup
-[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 Samba is an open-source suite of programs that provide secure and stable file sharing services across operating systems using Server Message Block (SMB). 
 
@@ -99,12 +93,10 @@ Opens the smb client terminal to access the share from the Pi. Accessing the sha
 4 images]]]
 
 ## Router Addition
-[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 My apartment’s new router enabled easier management and gave insights into live bandwidth usage, which the Xfinity admin tool did not provide. Adding the router required enabling bridge mode on my Xfinity Gateway. This changed it from a modem + router combo to just a modem, providing internet access to the new external router. Adding IP reservation for Pi-hole through the TP-Link admin page was straightforward. 
 
 ## PiVPN WireGuard
-[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 **No-IP**
 
@@ -117,7 +109,6 @@ With my new VPN set up, I was able to add clients to the VPN server running on m
 [img]
 
 ## Dockerizing Pihole
-[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
 First, I set up the Docker repository and installed Docker Compose on my Pi using [their instructions](https://docs.docker.com/compose/install/linux/#install-using-the-repository). Then, I used Pi-hole’s [Docker example](https://hub.docker.com/r/pihole/pihole) and customized the compose.yaml file to my preferences. I first uninstalled the native Pi-hole from the Pi, then ran the Pi-hole container, setting it to run on boot using ```systemctl```. Running Pi-hole provides isolation and ease of management. 
 
