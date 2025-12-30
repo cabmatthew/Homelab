@@ -112,7 +112,7 @@ File share contents in iOS Files:
 
 ## Router Addition
 
-My apartment’s new router enabled easier management and gave insights into live bandwidth usage, which the Xfinity admin tool did not provide. Adding the router required enabling bridge mode on my Xfinity Gateway. This changed it from a modem + router combo to just a modem, providing internet access to the new external router. Adding IP reservation for Pi-hole through the TP-Link admin page was straightforward. 
+My apartment’s new router enabled easier management and gave insights into each connected device's live bandwidth usage, which the Xfinity admin tool did not provide. Adding the router required enabling bridge mode on my Xfinity Gateway. This changed it from a modem + router combo to just a modem, providing internet access to the new external router. Adding IP reservation for Pi-hole through the TP-Link admin page was straightforward. 
 
 ## PiVPN WireGuard
 
