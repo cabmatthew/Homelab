@@ -1,6 +1,6 @@
 # My Homelab
 
-A learning experience. 
+A learning experience 😁
 
 ## Table of Contents
 1) Devices Used
@@ -93,12 +93,15 @@ Associates the appropriate groups to the new share and provides them with the co
 Opens the smb client terminal to access the share from the Pi. Accessing the share from my Mac and Windows computer was simple. Mac used Finder to connect to ‘smb://XXX.XXX.X.XXX/matt-samba’, while Windows mapped a network drive to ‘\\XXX.XXX.X.XXX\matt-samba’ with each prompting for my username and password for Samba.
 
 File share contents in SMB Client on Mac Terminal SSHed to Pi running Samba:
+
 <img src="/images/SambaSetup1.png" height=225px />
 
 File share contents in Windows Explorer:
+
 <img src="/images/SambaSetup2.png" height=225px />
 
-File share contents in Mac Finder:
+File share contents in macOS Finder:
+
 <img src="/images/SambaSetup3.png" height=225px />
 
 File share contents in iOS Files:
@@ -125,8 +128,7 @@ With my new VPN set up, I was able to add clients to the VPN server running on m
 
 First, I set up the Docker repository and installed Docker Compose on my Pi using [their instructions](https://docs.docker.com/compose/install/linux/#install-using-the-repository). Then, I used Pi-hole’s [Docker example](https://hub.docker.com/r/pihole/pihole) and customized the compose.yaml file to my preferences. I first uninstalled the native Pi-hole from the Pi, then ran the Pi-hole container, setting it to run on boot using ```systemctl```. Running Pi-hole provides isolation and ease of management. 
 
-[img of cli]
+<img src="/images/Dockerized1.png" height=225px />
 
 ## Proxmox
-[To top](https://github.com/cabmatthew/Homelab/blob/main/README.md#table-of-contents)
 
