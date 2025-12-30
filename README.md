@@ -132,3 +132,66 @@ First, I set up the Docker repository and installed Docker Compose on my Pi usin
 
 ## Proxmox
 
+Proxmox: Enables the running of multiple OSes as virtual machines (VMs) on a single machine (which can be a VM itself). 
+
+Purpose: Get practice administering Active Directory from the ground up while prioritizing security with role-based GPOs and firewall rules. 
+
+Methodology: Nested virtualization with multiple Windows VMs running on a single Proxmox Linux VMware Workstation Pro VM running on my laptop running Windows 11 Home.
+
+**Created Proxmox Linux VM**
+
+Initially, I gave the Proxmox VM 250 GB of storage and 6 GB of RAM, thinking they were enough. After installing Windows on three of the VMs and shutting them down at the end of the day, I tried booting up the Proxmox VM the next day but kept running into the message “Failed to start virtual machine.” I ended up having to start from scratch and started a new Proxmox VM with 400 GB of storage and 10 GB of RAM. Afterwards, the setup went smoothly since I was already familiar with Proxmox’s UI and the various configuration steps for each VM.
+
+**Created VMs for Server, Matt, Steven, Christian**
+
+<img src="/images/Proxmox1.png" height=225px />
+
+**Created the MattAcademy.net domain on the Windows Server 2022 VM**
+
+Plan for users and accounts
+
+<img src="/images/Proxmox2.png" height=150px />
+
+Accounts and groups created in Active Directory (Guests in Builtin)
+
+<img src="/images/Proxmox3.png" height=225px />
+
+**Created, customized, and linked GPOs**
+
+Plan for GPOs and Group Permissions
+
+<img src="/images/Proxmox4.png" height=400px />
+
+[Admins GPO Report](/images/AdminsGPOReport.pdf)
+
+[Employees GPO Report](/images/EmployeesGPOReport.pdf)
+
+[Guests GPO Report](/images/GuestsGPOReport.pdf)
+
+**Created file shares and assigned group permissions**
+
+AdminDrive
+
+<img src="/images/Proxmox5.png" height=225px />
+
+EmployeeDrive
+
+<img src="/images/Proxmox6.png" height=225px />
+
+**Joined the client devices to the MattAcademy.net domain**
+
+Installing Windows on each client device took around an hour each, but they were able to do so simultaneously. After installing the ethernet drivers, they were all able to join the domain after setting the DNS to be the IPv4 address of the Windows Server 2022 VM. 
+
+Able to log into any user account on AD (Matt, MattAdmin, Steven, Christian) from any client device
+
+<img src="/images/Proxmox7.png" height=225px />
+
+Tested the Proxmox VM firewall functionality 
+- Set the control variable: Youtube.com loaded before enabling the firewall rules
+- Set firewall rules to drop packets going out of TCP 443, UDP 443, and UDP 80 
+
+<img src="/images/Proxmox8.png" height=225px />
+
+Firewall rules
+
+<img src="/images/Proxmox9.png" height=225px />
