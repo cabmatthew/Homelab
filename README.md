@@ -19,6 +19,8 @@ A learning experience 😁
 
 8) Proxmox
 
+9) Up next
+
 ## Devices Used
 
 - Raspberry Pi OS Trixie (Debian-based) on a Raspberry Pi 4
@@ -195,3 +197,8 @@ Tested the Proxmox VM firewall functionality
 Firewall rules
 
 <img src="/images/Proxmox9.png" height=225px />
+
+# Up next
+
+- Self-hosted Google Photos with Immich
+- Upgrade my server from Raspberry Pi 4
