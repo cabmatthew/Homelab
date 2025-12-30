@@ -1,5 +1,7 @@
 # My Homelab
 
+<img src="/images/Raspberry.png" height=200px />
+
 A learning experience 😁
 
 ## Table of Contents
@@ -44,7 +46,7 @@ Moving on, this command installed the available updates found when looking throu
 
 Once all the packages were updated, I then ran into another issue. This time it involved Wi-Fi connectivity, as the wireless LAN interface could not be found. 
 [Fix?](https://gist.github.com/basperheim/d419491bc7a6889d99fb5cb72d58d0b6)
-After following the article for a fix, I kept seeing the same issue after restarting with the fix in place. I ended up flashing the OS again, and it ran like new.
+After following the article for a fix, I kept seeing the same issue after restarting with the fix in place. I ended up flashing the OS again, and it ran like new with Trixie.
 
 ## Pihole 
 
